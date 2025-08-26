@@ -1,0 +1,126 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000;
+  padding: 8px 20px;
+  font-family: inter;
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: white;
+  font-size: 14px;
+}
+
+.lang {
+  cursor: pointer;
+  font-family: inter;
+}
+
+.play-btn {
+  background: #ffb300;
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.play-btn:hover {
+  background: #e6a600;
+}
+
+.sub-nav {
+  background: #222222;
+}
+
+.sub-nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.sub-nav li {
+  margin: 0 20px;
+}
+
+.sub-nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  padding: 15px 0;
+  display: block;
+  font-family: inter;
+}
+
+.sub-nav a:focus{
+  color: #ffb300;
+}
+.Behruz_1{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./behruz_111/image\ 5.png');
+    background-size: cover;
+    font-family: inter;
+}
+.Box_3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 235px;
+    height: 73px;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+}
+.Box_2{
+    display: flex;
+    background-color: #F1A90054;
+    align-items: center;
+    justify-content: center;
+    width: 966px;
+    font-size: 64px;
+    height: 202px;
+    color: white;
+}
+.Behruz_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    margin-top: 31px;
+}
+
+.Box_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 235px;
+    height: 73px;
+    background-color: #e6a600;
+    font-size: 40px;
+}
+.Behruz_3{
+    display: flex;
+    justify-content: center;
+    padding-top: 349px;
+    gap: 64px;
+}
